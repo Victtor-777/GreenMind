@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: --body-font;
+  height: 2000px;
+}
+
+input,
+button {
+  border: none;
+  outline: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+:root {
+  --color-1: #c1dcdc;
+  --color-2: rgba(30, 30, 30);
+  --color-3: rgba(30, 30, 30, 0.749);
+  --color-4: rgba(30, 30, 30, 0.5);
+}
+
+.container {
+  max-width: 1248px;
+  margin: 0 auto;
+}

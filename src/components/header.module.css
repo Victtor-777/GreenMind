@@ -1,0 +1,144 @@
+.header {
+  padding: 36px 0;
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  transition: box-shadow 0.33s;
+}
+
+.shadow_header {
+  box-shadow: 0 2px 16px hsla(0, 0%, 0%, 0.1);
+}
+
+header .nav {
+  display: flex;
+  height: 28px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+.logo img {
+  width: 142px;
+}
+
+.nav_menu {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.nav_left {
+  flex: 1;
+  text-align: left;
+}
+
+.logo {
+  margin-right: 96px;
+}
+
+.nav_left ul {
+  display: flex;
+  gap: 48px;
+}
+
+.nav_right {
+  display: flex;
+  gap: 48px;
+}
+
+.nav a {
+  display: flex;
+  color: var(--color-4);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-family: var(--body-font);
+}
+
+.nav a:hover {
+  color: var(--color-2);
+}
+
+.nav_left ul li:nth-child(1) a {
+  color: var(--color-2);
+}
+
+.btn_mobile {
+  display: none;
+  cursor: pointer;
+}
+
+.btn_mobile div {
+  width: 28px;
+  height: 2px;
+  background: #000;
+  margin: 8px;
+}
+
+@media (max-width: 1000px) {
+  .nav_right {
+    display: none;
+  }
+  .nav_left {
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    top: 100px;
+    left: 0;
+    background: #fff;
+    z-index: 999;
+    visibility: hidden;
+    overflow-y: hidden;
+    transition: 0.33s;
+  }
+  .nav_left.active {
+    height: 100vh;
+    visibility: visible;
+    overflow-y: auto;
+  }
+  .nav_left ul {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 0 16px;
+  }
+  .btn_mobile {
+    display: flex;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    gap: 0.5rem;
+  }
+  .hamburger {
+    width: 20px;
+    border-top: 2px solid black;
+  }
+  .hamburger::after,
+  .hamburger::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    position: relative;
+    transition: 0.33s;
+  }
+  .btn_mobile.active .hamburger {
+    border-top-color: transparent;
+  }
+  .btn_mobile.active .hamburger::before {
+    transform: rotate(135deg);
+  }
+  .btn_mobile.active .hamburger::after {
+    transform: rotate(-135deg);
+    top: -7px;
+  }
+}
