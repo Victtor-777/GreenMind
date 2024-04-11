@@ -52,14 +52,14 @@ export default function Header() {
                 <Link href={"#products"}>Products</Link>
               </li>
               <li className={styles.links}>
-                <Link href={"#about"}>About us</Link>
+                <Link href={"#about"}>Contacts</Link>
               </li>
-              <li className={styles.links}>
+              {/* <li className={styles.links}>
                 <Link href={"#categories"}>Categories</Link>
               </li>
               <li className={styles.links}>
                 <Link href={"#reviews"}>Reviews</Link>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className={styles.nav_right}>
@@ -86,8 +86,6 @@ export default function Header() {
           onClick={handleClick}
         >
           <span className={styles.hamburger}></span>
-          {/* <span className={styles.hamburger2}></span>
-          <span className={styles.hamburger3}></span> */}
         </button>
       </nav>
     </header>

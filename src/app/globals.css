@@ -1,3 +1,16 @@
+/*=============== VARIABLES CSS ===============*/
+:root {
+  --color-1: #c1dcdc;
+  --color-2: rgba(30, 30, 30);
+  --color-3: rgba(30, 30, 30, 0.749);
+  --color-4: rgba(30, 30, 30, 0.5);
+
+  --h1-font-size: 4rem;
+  --h2-font-size: 2rem;
+  --body-font-size: 1.125rem;
+}
+
+/*=============== BASE ===============*/
 * {
   box-sizing: border-box;
   padding: 0;
@@ -9,7 +22,8 @@ html {
 }
 
 body {
-  font-family: --body-font;
+  font-family: var(--body-font);
+  margin: 0 auto;
   height: 2000px;
 }
 
@@ -28,18 +42,7 @@ a {
   text-decoration: none;
 }
 
-img {
-  display: block;
-  width: 100%;
-}
-
-:root {
-  --color-1: #c1dcdc;
-  --color-2: rgba(30, 30, 30);
-  --color-3: rgba(30, 30, 30, 0.749);
-  --color-4: rgba(30, 30, 30, 0.5);
-}
-
+/*=============== THEME ===============*/
 .container {
   max-width: 1248px;
   margin: 0 auto;
