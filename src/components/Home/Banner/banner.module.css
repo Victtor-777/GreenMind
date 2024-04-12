@@ -4,20 +4,20 @@
 
 .banner {
   max-width: 78rem;
-  height: 32rem;
+  min-height: 32rem;
   margin: 9rem auto;
   background-color: var(--color-1);
   border-radius: 1.5rem;
-  padding: 3rem;
+  /* padding: 3rem; */
   display: flex;
   justify-content: space-between;
-  gap: 10rem;
-  position: relative;
+  gap: 6rem;
   /* z-index: -1; */
 }
 
 .banner_content {
-  max-width: 32rem;
+  padding: 3rem;
+  max-width: 35rem;
 }
 
 .banner_content h1 {
@@ -55,7 +55,7 @@
 }
 
 .banner_search {
-  min-width: 18rem;
+  min-width: 16rem;
   max-width: 28rem;
   height: 4rem;
 }
@@ -91,31 +91,99 @@
   margin: 0.5rem;
 }
 
-.banner_search img {
+.banner_plant {
+  width: 100%;
+  max-width: 28rem;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
 }
 
-.banner_plant {
-  position: absolute;
-  bottom: 0;
-  right: 1rem;
-  top: 18px;
+.banner_plant img {
+  position: relative;
+  max-width: 100%;
+  display: block;
   z-index: 2;
+  object-fit: cover;
 }
 
 .banner_img {
-  width: 28rem;
-  height: 25rem;
+  max-width: 28rem;
+  max-height: 25rem;
+  width: 100%;
+  height: 100%;
   border-radius: 12.5rem 12.5rem 0rem 12.5rem;
   background: var(--color-2);
-  margin: 0;
+  margin: 0 auto;
   position: absolute;
   bottom: 0;
   right: 4rem;
   z-index: 0;
 }
 
+.banner_decoration1 img {
+  position: absolute;
+  bottom: 100px;
+  right: 0;
+  left: -260px;
+}
+
+.banner_decoration2 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
 @media (max-width: 1000px) {
+  .banner_decoration1,
+  .banner_decoration2 {
+    display: none;
+  }
   .banner {
+    gap: 1rem;
     flex-direction: column;
+  }
+  .banner_content {
+    padding: 2rem;
+    margin: 0 auto;
+  }
+  .banner_plant {
+    margin: 0 auto;
+  }
+  .banner_img {
+    max-width: 26rem;
+    max-height: 24rem;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    width: 90%;
+    height: 75%;
+  }
+}
+
+@media (max-width: 550px) {
+  .banner_content {
+    padding: 1rem;
+  }
+  .banner_content h1 {
+    font-size: 3.25rem;
+  }
+  .number1 {
+    padding-right: 2rem;
+  }
+  .number2 {
+    padding-left: 1rem;
+  }
+  .banner_content span {
+    font-size: 2rem;
+  }
+  .banner_img {
+    max-width: 22rem;
+    max-height: 24rem;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    width: 90%;
+    height: 75%;
   }
 }

@@ -32,16 +32,30 @@ export default function Banner() {
             </form>
           </div>
         </div>
-
-        <div>
+        <div className={style.banner_plant}>
           <Image
-            className={style.banner_plant}
             src={"/assets/planta_banner.png"}
             width={411}
             height={494}
             alt="plant"
           />
           <div className={style.banner_img}></div>
+          <div className={style.banner_decoration1}>
+            <Image
+              src={"/assets/home_decoration_01.svg"}
+              width={184}
+              height={87}
+              alt="arrow decoration"
+            />
+          </div>
+          <div className={style.banner_decoration2}>
+            <Image
+              src={"/assets/home_decoration_02.svg"}
+              width={90}
+              height={176}
+              alt="arrow decoration"
+            />
+          </div>
         </div>
       </section>
     </div>
