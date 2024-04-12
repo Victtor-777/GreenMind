@@ -5,7 +5,7 @@
 .banner {
   max-width: 78rem;
   min-height: 32rem;
-  margin: 9rem auto;
+  margin: 9rem auto 6rem;
   background-color: var(--color-1);
   border-radius: 1.5rem;
   /* padding: 3rem; */

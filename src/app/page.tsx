@@ -1,4 +1,5 @@
 import Banner from "@/components/Home/Banner/banner";
+import Products from "@/components/Home/Products/products";
 import Header from "@/components/header";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <main>
       <Header />
       <Banner />
+      <Products />
     </main>
   );
 }
