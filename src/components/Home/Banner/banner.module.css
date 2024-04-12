@@ -8,11 +8,9 @@
   margin: 9rem auto 6rem;
   background-color: var(--color-1);
   border-radius: 1.5rem;
-  /* padding: 3rem; */
   display: flex;
   justify-content: space-between;
   gap: 6rem;
-  /* z-index: -1; */
 }
 
 .banner_content {
@@ -121,7 +119,8 @@
   z-index: 0;
 }
 
-.banner_decoration1 img {
+.banner_decoration1 {
+  width: 184px;
   position: absolute;
   bottom: 100px;
   right: 0;
