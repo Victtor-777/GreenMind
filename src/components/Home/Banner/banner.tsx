@@ -38,6 +38,7 @@ export default function Banner() {
             width={411}
             height={494}
             alt="plant"
+            quality={100}
           />
           <div className={style.banner_img}></div>
           <div className={style.banner_decoration1}>

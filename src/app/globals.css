@@ -24,7 +24,7 @@ html {
 body {
   font-family: var(--body-font);
   margin: 0 auto;
-  height: 2000px;
+  height: 3000px;
 }
 
 input,
@@ -45,6 +45,7 @@ a {
 img {
   width: 100%;
   display: block;
+  object-fit: cover;
 }
 /*=============== THEME ===============*/
 .container {

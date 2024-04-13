@@ -29,6 +29,7 @@
 .products_information button {
   color: var(--color-2);
   font-size: var(--body-font-size);
+  font-family: var(--body-font);
   font-weight: 500;
 
   background: var(--color-1);

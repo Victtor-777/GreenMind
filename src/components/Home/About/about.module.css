@@ -1,6 +1,9 @@
+.about_bg {
+  margin: 0 1rem;
+}
+
 .about_section {
   margin: 7rem auto;
-  padding: 1rem;
 }
 
 .about_info {
@@ -8,6 +11,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 0.75rem;
   margin-bottom: 3rem;
 }
 

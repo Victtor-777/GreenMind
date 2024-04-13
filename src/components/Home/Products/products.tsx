@@ -16,6 +16,7 @@ export default function Products() {
               src={"/assets/product_01.png"}
               width={300}
               height={363}
+              quality={100}
               alt="plant product"
             />
             <span>Natural Plants</span>
@@ -26,6 +27,7 @@ export default function Products() {
               src={"/assets/product_02.png"}
               width={300}
               height={363}
+              quality={100}
               alt="plant product"
             />
             <span>Artificial Plants</span>
@@ -36,6 +38,7 @@ export default function Products() {
               src={"/assets/product_03.png"}
               width={300}
               height={363}
+              quality={100}
               alt="plant product"
             />
             <span>Semi-Artificial Plants</span>
