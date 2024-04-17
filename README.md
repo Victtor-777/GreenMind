@@ -6,7 +6,7 @@
 
 Projeto de um site de vendas de plantas naturais. Nesse projeto eu aproveitei para praticar bastante CSS, copiar Layouts do Figma e a minhas skills de responsividade. Fiz esse projeto com Next.js apenas para colocar em prática as coisas que apreendi e as otimizações de fonts e imagens.
 
-- Veja o projeto: [Preview]()
+- Veja o projeto: [Preview](https://greenmind-victtor.vercel.app/)
 - Layout do Projeto: [Figma](<https://www.figma.com/file/6lcApoJom8CYqXWQbZpsNr/E-Commerce-Plant-Shop-Website-(Community)?node-id=0%3A1&mode=dev>)
 
 ## ⚙️ Funcionalidades
