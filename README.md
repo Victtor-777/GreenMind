@@ -1,12 +1,13 @@
 <p>
-  <img src="./assets/img/preview.png" width="100%" />
+  <img src="./public/assets/preview.png" width="100%" />
 </p>
 
 # 🌼 GreenMind
+
 Projeto de um site de vendas de plantas naturais. Nesse projeto eu aproveitei para praticar bastante CSS, copiar Layouts do Figma e a minhas skills de responsividade. Fiz esse projeto com Next.js apenas para colocar em prática as coisas que apreendi e as otimizações de fonts e imagens.
 
 - Veja o projeto: [Preview]()
-- Layout do Projeto: [Figma](https://www.figma.com/file/6lcApoJom8CYqXWQbZpsNr/E-Commerce-Plant-Shop-Website-(Community)?node-id=0%3A1&mode=dev)
+- Layout do Projeto: [Figma](<https://www.figma.com/file/6lcApoJom8CYqXWQbZpsNr/E-Commerce-Plant-Shop-Website-(Community)?node-id=0%3A1&mode=dev>)
 
 ## ⚙️ Funcionalidades
 
@@ -28,4 +29,3 @@ Projeto de um site de vendas de plantas naturais. Nesse projeto eu aproveitei pa
 ## 📝 Considerações
 
 Fiz esse projeto com Next.js, desnecessário mas queria práticar as boas práticas do Next.js e a otimização de imagens;
-
