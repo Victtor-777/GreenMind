@@ -29,3 +29,5 @@ Projeto de um site de vendas de plantas naturais. Nesse projeto eu aproveitei pa
 ## 📝 Considerações
 
 Fiz esse projeto com Next.js, desnecessário mas queria práticar as boas práticas do Next.js e a otimização de imagens;
+
+Ainda falta a parte de interatividade do projeto, que irei deixar para depois para continuar outros projetos no momento.
