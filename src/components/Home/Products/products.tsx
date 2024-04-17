@@ -3,7 +3,7 @@ import style from "./products.module.css";
 
 export default function Products() {
   return (
-    <div className={`${style.section_products}`}>
+    <div id="products" className={`${style.section_products}`}>
       <section className={`${style.products_section} container`}>
         <div className={style.products_information}>
           <h2>Best Selling Plants</h2>

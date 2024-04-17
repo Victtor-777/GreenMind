@@ -15,7 +15,6 @@ export default function Home() {
       <About />
       <Categories />
       <Reviews />
-
       <Footer />
     </main>
   );

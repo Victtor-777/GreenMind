@@ -52,3 +52,29 @@ img {
   max-width: 1248px;
   margin: 0 auto;
 }
+
+/*=============== SCROLL UP ===============*/
+.scrollup {
+  position: fixed;
+  right: 1rem;
+  bottom: -50%;
+  background-color: var(--color-1);
+  box-shadow: 0 2px 16px hsla(0, 0%, 0%, 0.1);
+  display: inline-flex;
+  padding: 8px;
+  border-radius: 0.25rem;
+  font-size: 1.25rem;
+  color: black;
+  z-index: 9;
+  transition: 0.33s;
+  /* transition: bottom .4s, transform .4s, background-color .4s; */
+}
+
+.scrollup:hover {
+  transform: translateY(-0.5rem);
+}
+
+/* Show Scroll Up */
+.show-scroll {
+  bottom: 3rem;
+}

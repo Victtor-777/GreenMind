@@ -3,7 +3,7 @@ import style from "./about.module.css";
 
 export default function About() {
   return (
-    <div className={style.about_bg}>
+    <div id="about" className={style.about_bg}>
       <section className={`${style.about_section} container`}>
         <div className={style.about_info}>
           <h2>About us</h2>

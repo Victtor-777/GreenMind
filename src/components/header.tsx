@@ -49,10 +49,10 @@ export default function Header() {
                 <Link href={"#"}>Home</Link>
               </li>
               <li className={styles.links}>
-                <Link href={"#products"}>Products</Link>
+                <Link href={"#"}>Products</Link>
               </li>
               <li className={styles.links}>
-                <Link href={"#about"}>Contacts</Link>
+                <Link href={"#"}>Contacts</Link>
               </li>
               {/* <li className={styles.links}>
                 <Link href={"#categories"}>Categories</Link>

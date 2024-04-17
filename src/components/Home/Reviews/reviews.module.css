@@ -1,5 +1,5 @@
 .reviews h2 {
-  width: 28.55rem;
+  max-width: 28.55rem;
   margin: 6rem 0 3rem;
 
   color: #000;
@@ -9,7 +9,7 @@
 
 .review_container {
   max-width: 50rem;
-  max-height: 20.625rem;
+  min-height: 20.625rem;
   border-radius: 0.75rem;
   background: var(--color-1);
   padding: 3rem;
@@ -37,9 +37,35 @@
 }
 
 .review_user_info img {
-  width: 3rem;
+  max-width: 3rem;
 }
 
 .review_user_star img {
   width: 1.25rem;
+}
+
+@media (max-width: 1350px) {
+  .reviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .reviews h2 {
+    font-size: 1.75rem;
+  }
+  .review_container {
+    padding: 1.5rem;
+  }
+  .review_user_star span {
+    font-size: 1rem;
+  }
+  .review_user_info {
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
 }
